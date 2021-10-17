@@ -54,12 +54,12 @@
     F. true, because the Boolean() function returns true if any integer value besides 0 is passed in. Therefore, we are just comparing true === true
 
 
-15. The difference between the == and === operator in JavaScript is that the == operator only checks if the comparison is of the same value but not the same type of object. In the === case, even though we may have the same value between 2 and '2', they are not of the same type of object. for === to be true, the comparison must have the same value and same object type.
+15 . The difference between the == and === operator in JavaScript is that the == operator only checks if the comparison is of the same value but not the same type of object. In the === case, even though we may have the same value between 2 and '2', they are not of the same type of object. for === to be true, the comparison must have the same value and same object type.
 
-17. The result of this code returns [2,4,6]. In this function, we are passing in the array [1,2,3] to the modifyArray function and are using the callback function doSomething, which returns any number passed into it, multiplied by 2. In the modifyArray function, we are creating an empty array, newArr. We then loop the array we passed into the function and push the return result of the callback function, doSomething, on each element of the array. Therefore, we are pushing, [1 * 2, 2 * 2, 3 * 2], which yields the return result from newArr of [2,4,6].
+17 . The result of this code returns [2,4,6]. In this function, we are passing in the array [1,2,3] to the modifyArray function and are using the callback function doSomething, which returns any number passed into it, multiplied by 2. In the modifyArray function, we are creating an empty array, newArr. We then loop the array we passed into the function and push the return result of the callback function, doSomething, on each element of the array. Therefore, we are pushing, [1 * 2, 2 * 2, 3 * 2], which yields the return result from newArr of [2,4,6].
 
 
-19. The output of the code should be:
+19 . The output of the code should be:
     
         1
 
